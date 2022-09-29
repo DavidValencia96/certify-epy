@@ -40,7 +40,6 @@ function copyTextKickOff(){
     document.execCommand("copy");
 }
 
-
 function selecionarAlianza(event){
     // e.preventDefault();
     event.preventDefault();
@@ -59,7 +58,6 @@ function selecionarAlianza(event){
     const dinners = document.getElementById('dinners');
     const americanExpress = document.getElementById('americanExpress');
     const credencial = document.getElementById('credencial');
-
 
     var errorMsg = document.getElementById('error-message');
 
@@ -82,17 +80,12 @@ function selecionarAlianza(event){
     }
     else{
         errorMsg.innerText = '***No hay franquicias seleccionadas'; 
-        // var error = errorMsg.innerText = 'No hay franquicias seleccionadas'; 
-        // $('#error').hide(3000);
     }
 
     
     var correosJelpit = 'mlsalgado@davivienda.com; viancaro@proveedores.davivienda.com; pjcastib@proveedores.davivienda.com; liliana.rubio@serviciosbolivar.com; fabian.poveda@serviciosbolivar.com; mildred.cortes@serviciosbolivar.com; luis.ordonez.castro@serviciosbolivar.com; erika.cruz@serviciosbolivar.com;';
-
     var correosAdquirencia = 'fmontealegre@davivienda.com; ';
-
     var correosCopia = 'soporte.integraciones@epayco.com; certificaciones.comercial@payco.co; manuel.granada@epayco.com' ;
-
     var correosKickOff = 'soporte.integraciones@epayco.com; certificaciones.comercial@payco.co; ';
     
     switch (optionAlianza) {
