@@ -12,8 +12,9 @@ function actualizarHora() {
     seconds = date.getSeconds();
 
     var hora_actual = document.getElementById('timeActually');
-    hora_actual.innerHTML = hour + "h:" + minutes + "m:" + seconds+ "s:";
+    hora_actual.innerHTML = hour + "h:" + minutes + "m:" + seconds+ "s"; // formato
 
+    // intervalo de actualización
     setTimeout("actualizarHora()",1000);
 }
 actualizarHora()
