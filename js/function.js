@@ -23,4 +23,54 @@ $(document).ready(function(){
         // $('#alert3').hide(4000);
      });
 
+
+
+     // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+        'use strict'
+    
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.querySelectorAll('.needs-validation')
+    
+        // Loop over them and prevent submission
+        Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+                event.preventDefault()
+                event.stopPropagation()
+            }
+    
+            form.classList.add('was-validated')
+            }, false)
+        })
+    })()
+
+
+    function habilitarBoton(){
+        nombre = document.getElementById("nombre").value;
+        correo = document.getElementById("correo").value;
+
+        val = 0;
+    
+        if(nombre == ""){
+            val++;
+        }
+        if(correo == ""){
+            val++;
+        }
+    
+        if (val == 0){
+            document.getElementById('boton').disabled = false;
+        } else {
+            document.getElementById('boton').disabled =true;
+        }
+    }
+
+    document.getElementById("nombre").addEventListener("keyup",habilitarBoton);
+    document.getElementById("correo").addEventListener("keyup",habilitarBoton);
+    document.getElementById("boton").addEventListener("click", ()=>{
+        
+    });
+
 });
