@@ -86,13 +86,13 @@
                         <label for="dataCommerce" ><b>Datos del comercio:</b></label>
                         <div id="datosComercio1" class="row">
                             <div class="col-md-2">
-                                <input name="idComercio" id="idComercio" class="form-control my-2" type="number" placeholder="ID comercio" value="123456">
+                                <input name="idComercio" id="idComercio" class="form-control my-2" type="number" placeholder="ID comercio" />
                             </div>
                             <div class="col-md-5">
-                                <input required name="nombre" id="nombre" class="form-control my-2" type="text" placeholder="Nombre del comercio" value="david valencia">
+                                <input required name="nombre" id="nombre" class="form-control my-2" type="text" placeholder="Nombre del comercio" />
                             </div>
                             <div class="col-md-5">
-                                <input required name="correo" id="correo" class="form-control my-2 " type="email" placeholder="Correo del comercio" value="juan@juan.com">
+                                <input required name="correo" id="correo" class="form-control my-2 " type="email" placeholder="Correo del comercio" />
                             </div>
                         </div>
                     </div>
