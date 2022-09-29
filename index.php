@@ -17,12 +17,13 @@
             <!-- <div class="col-8 offset-2"> -->
             <div class="col-12">
                 <form id="formulario" class="row g-3 p-3 mt-1 shadow border" >
+
                     <!-- titulo -->
                     <div class="tituloEpayco">
                         <img class=" float-end" height="60px" src="./img/01_negro.svg" alt="logo-epayco">
                         <div class="row float-start" onload="actualizarHora()">
                             <h2 class="text-start">Certificaciones Soporte técnico</h2>
-                            <code id="timeActually" class="text-start"></code>
+                            <label for="hora">Son las: <code id="timeActually" class="text-start"></code></label>
                         </div>
                     </div>
                     <hr>
