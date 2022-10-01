@@ -77,13 +77,18 @@
 
 <!-- Boton descargar archivo -->
 <div>
+    <p>Descargar archivo de "Acta de salida a producción ePayco"
+        <a href="./doc/acta-salida-a-produccion.docx" download="acta-epayco">
+            <img src="./img/file.png" alt="file" width="50" height="50">
+        </a>
+    </p>
     <article class="mb-3 mt-2">
-        <section>
+        <code>
             <a href="./doc/acta-salida-a-produccion.docx" 
                 download="Acta de salida a produccón ePayco">
-                Descargar archivo de "Acta de salida a producción ePayco"
+                
             </a>
-        </section>
+        </code>
     </article>
 </div>
 <br>

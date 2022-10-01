@@ -1,5 +1,5 @@
 <div class="text-dataEcommerce">
-    <label for="dataCommerce" ><b>Datos del comercio:</b></label>
+    <!-- <label for="dataCommerce" ><b>Datos del comercio:</b></label> -->
     <div id="datosComercio1" class="row">
         <div class="col-md-2 mb-1">
             <div class="input-group">
