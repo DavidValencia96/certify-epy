@@ -12,43 +12,58 @@
     
     <title>ST ePayco</title>
 </head>
-<body class="fondo1">
-    <!-- modales  -->
-    <?php include './layout/modal.view.php'; ?>
-    
-    <div class="container-fluid mt-1">
-        <div class="row">
-            <!-- <div class="col-8 offset-2"> -->
-            <div class="col-12">
-                <form id="formulario" class="row g-3 p-3 mt-1 shadow border needs-validation" novalidate >
 
-                    <!-- titulo -->
-                    <?php include './layout/title.view.php'; ?>
-                    <hr>
+<body >
+    <div>
+        <!-- modales  -->
+        <?php include './layout/modal.view.php'; ?>
+        
+        <div class="container-fluid mt-1 ">
+            <div class="row">
 
-                    <!-- Selectores alianza, red y franquicia -->
-                    <?php include './layout/alliances.view.php'; ?>
+            <!-- Dark Mode in progress -->
 
-                    <!-- Imputs ingresar datos -->
-                    <?php include './layout/inputsData.view.php'; ?>        
-                    
-                    
-                    <!-- Botones imprimir - modal -->
-                    <?php include './layout/buttonsPrints.view.php'; ?>    
+                <!-- <label>
+                    <input type="checkbox">
+                    <span class="check"></span>
+                </label> -->
                 
-                    <hr>
 
-                    <!-- Data impresa -->
-                    <?php include './layout/response.view.php'; ?>    
-                </form>
+                <!-- <div class="col-8 offset-2"> -->
+                <div class="col-12 ">
+                
+                    <form id="formulario" class="row g-3 p-3 mt-1 shadow border needs-validation card border-dark" novalidate >
+
+                        <!-- titulo -->
+                        <?php include './layout/title.view.php'; ?>
+                        <hr>
+
+                        <!-- Selectores alianza, red y franquicia -->
+                        <?php include './layout/alliances.view.php'; ?>
+
+                        <!-- Imputs ingresar datos -->
+                        <?php include './layout/inputsData.view.php'; ?>        
+                        
+                        
+                        <!-- Botones imprimir - modal -->
+                        <?php include './layout/buttonsPrints.view.php'; ?>    
+                    
+                        <hr>
+
+                        <!-- Data impresa -->
+                        <?php include './layout/response.view.php'; ?>    
+                    </form>
+                </div>
             </div>
-        </div>
 
-        <!-- Footer -->
-        <?php include './layout/footer.view.php'; ?>    
+            <!-- Footer -->
+            <?php include './layout/footer.view.php'; ?>    
+        </div>
     </div>
+    
 </body>
 <script src="./js/data.js"></script>
+<script src="./js/darkMode.js"></script>
 <script src="./js/function.js"></script>
 <script src="http://code.jquery.com/jquery.js"></script>
 </html>
