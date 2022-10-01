@@ -7,9 +7,13 @@ formulario.addEventListener( "submit", selecionarAlianza);
 // Hora
 function actualizarHora() {
     var date = new Date();
+    year = date.getFullYear();
     hour = date.getHours();
     minutes = date.getMinutes();
     seconds = date.getSeconds();
+    
+    var yearActually = document.getElementById('year');
+    yearActually.innerHTML = year; // formato
 
     var hora_actual = document.getElementById('timeActually');
     hora_actual.innerHTML = hour + "h:" + minutes + "m:" + seconds+ "s"; // formato
@@ -301,7 +305,7 @@ function selecionarAlianza(e){
                     break;
             
                 default:
-                    document.getElementById('respuestaRed').innerHTML = `***Debes de seleccionar una red de procesamiento`;
+                    document.getElementById('respuestaRed').innerHTML = `***Debes de seleccionar una red de procesamiento***`;
                     break;
             }
           break;
