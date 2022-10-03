@@ -1,4 +1,4 @@
-body {
+/* body {
     margin: 0;
     padding: 0;
     display: flex;
@@ -64,4 +64,4 @@ input[type="checkbox"]:checked ~ .check::before{
 input[type="checkbox"]:checked ~ .check::after{
     transform: translateX(0px);
 
-}
+} */
