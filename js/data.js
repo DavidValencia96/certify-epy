@@ -176,7 +176,7 @@ function selecionarAlianza(e){
 
                     document.getElementById('respuestaCertificaciones').innerHTML = `Buen Día. \n\nReciba un cordial saludo. \n\nTe confirmo la certificación del comercio ${nombre} en el medio de pago PSE por medio de ACH, quien ya se encuentra notificado y bajo alianza Adquirencia Móvil.`;
                     
-                    document.getElementById('respuesta').innerHTML = `Buen día. \n\nReciba de nuestra parte un cordial saludo. \n\nDe parte del equipo ePayco es un gusto informarles de que su proceso de certificación en nuestro modelo Gateway en la certificación de ${optionRed} para el comercio ${nombre} ha culminado exitosamente con las respectivas pruebas de pago. \n\nNota: El correo para ingresar al Dashboard de Adquirencia Móvi es el siguiente: ${correo}.`;
+                    document.getElementById('respuesta').innerHTML = `Buen día. \n\nReciba de nuestra parte un cordial saludo. \n\nDe parte del equipo ePayco es un gusto informarles de que su proceso de certificación en nuestro modelo Gateway en la certificación de ${optionRed} para el comercio ${nombre} ha culminado exitosamente con las respectivas pruebas de pago. \n\nNota: El correo para ingresar al Dashboard de Adquirencia Móvil es el siguiente: ${correo}.`;
                     
                     break;
 
@@ -191,7 +191,7 @@ function selecionarAlianza(e){
 
                     document.getElementById('respuestaCertificaciones').innerHTML = `Buen día.  \n\nReciba un cordial saludo. \n\nTe notifico la certificación del comercio ${nombre} en el medio de pago tarjeta crédito por medio de ${optionRed} quien ya se encuentra notificado y bajo alianza Adquirencia Móvil.`;
                     
-                    document.getElementById('respuesta').innerHTML = `Buen día. \n\nReciba de nuestra parte un cordial saludo. \n\nDe parte del equipo ePayco es un gusto informarles de que su proceso de certificación en nuestro modelo Gateway en la certificación de tarjeta de crédito con ${optionRed} en las franquicias solicitadas (${checkedArray}) para el comercio ${nombre} ha culminado exitosamente con las respectivas pruebas de pago. \n\nNota: El correo para ingresar al Dashboard de Adquirencia Móvi es el siguiente: ${correo}.`;
+                    document.getElementById('respuesta').innerHTML = `Buen día. \n\nReciba de nuestra parte un cordial saludo. \n\nDe parte del equipo ePayco es un gusto informarles de que su proceso de certificación en nuestro modelo Gateway en la certificación de tarjeta de crédito con ${optionRed} en las franquicias solicitadas (${checkedArray}) para el comercio ${nombre} ha culminado exitosamente con las respectivas pruebas de pago. \n\nNota: El correo para ingresar al Dashboard de Adquirencia Móvil es el siguiente: ${correo}.`;
                     
                     break;
                     
@@ -206,7 +206,7 @@ function selecionarAlianza(e){
 
                     document.getElementById('respuestaCertificaciones').innerHTML = `Buen día.  \n\nReciba un cordial saludo. \n\nTe notifico la certificación del comercio ${nombre} en el medio de pago tarjeta crédito por medio de ${optionRed} quien ya se encuentra notificado y bajo alianza Adquirencia Móvil.`;
                     
-                    document.getElementById('respuesta').innerHTML = `Buen día. \n\nReciba de nuestra parte un cordial saludo. \n\nDe parte del equipo ePayco es un gusto informarles de que su proceso de certificación en nuestro modelo Gateway en la certificación de tarjeta de crédito con ${optionRed} en las franquicias solicitadas (${checkedArray}) para el comercio ${nombre} ha culminado exitosamente con las respectivas pruebas de pago. \n\nNota: El correo para ingresar al Dashboard de Adquirencia Móvi es el siguiente: ${correo}.`;
+                    document.getElementById('respuesta').innerHTML = `Buen día. \n\nReciba de nuestra parte un cordial saludo. \n\nDe parte del equipo ePayco es un gusto informarles de que su proceso de certificación en nuestro modelo Gateway en la certificación de tarjeta de crédito con ${optionRed} en las franquicias solicitadas (${checkedArray}) para el comercio ${nombre} ha culminado exitosamente con las respectivas pruebas de pago. \n\nNota: El correo para ingresar al Dashboard de Adquirencia Móvil es el siguiente: ${correo}.`;
                     break;
             
                 default:
