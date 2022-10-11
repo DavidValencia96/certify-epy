@@ -1,8 +1,8 @@
 <div class="text-dataEcommerce">
     <!-- <label for="dataCommerce" ><b>Datos del comercio:</b></label> -->
     <div id="datosComercio1" class="row">
-        <div class="col-md-2 mb-1">
-            <div class="input-group">
+        <div class="col-md-2 mb-1" id="commerceID">
+            <div class="input-group" >
                 <span class="input-group-text">ID</span>
                 <input name="idComercio" id="idComercio" class="form-control" type="number" value="0"/>
                 <div class="invalid-feedback">
