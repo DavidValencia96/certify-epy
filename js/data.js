@@ -48,6 +48,9 @@ function copyTextKickOff(){
 // Ocultar listado de franquicias
 // $('#franquiciasCredito').hide();
 
+// input ID commercio
+// $('#commerceID').hide();
+
 
 // funcion llenar datos e imprimir
 function selecionarAlianza(e){
@@ -58,15 +61,6 @@ function selecionarAlianza(e){
     let redProcesamiento = document.getElementById('redProcesamiento');
     let optionRed = redProcesamiento.value;
 
-    // if (optionRed == 'Redeban' && optionRed == 'Credibanco') {
-    //     $('#franquiciasCredito').show();
-    // } else if (optionRed == 'PSE'){
-    //     $('#franquiciasCredito').hide();
-    // } else{
-    //     // $('#franquiciasCredito').hide();
-    // }
-    
-   
     const idComercio = document.querySelector("#idComercio").value;
     const nombre = document.querySelector("#nombre").value;
     const correo = document.querySelector("#correo").value;
@@ -101,7 +95,6 @@ function selecionarAlianza(e){
     } 
 
     
-        
     var correosJelpit = 'mlsalgado@davivienda.com; viancaro@proveedores.davivienda.com; pjcastib@proveedores.davivienda.com; liliana.rubio@serviciosbolivar.com; fabian.poveda@serviciosbolivar.com; mildred.cortes@serviciosbolivar.com; luis.ordonez.castro@serviciosbolivar.com; erika.cruz@serviciosbolivar.com;';
     var correosAdquirencia = 'fmontealegre@davivienda.com; ';
     var correosCopia = 'soporte.integraciones@epayco.com; certificaciones.comercial@payco.co; manuel.granada@epayco.com' ;
@@ -166,6 +159,7 @@ function selecionarAlianza(e){
         case "adquirencia":
             switch (optionRed) {
                 case "PSE":
+                    // $('#commerceID').show();
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `${correosAdquirencia}`;
                     document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
@@ -181,6 +175,7 @@ function selecionarAlianza(e){
                     break;
 
                 case "Redeban":
+                    // $('#commerceID').show();
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `${correosAdquirencia}`;
                     document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
@@ -196,6 +191,7 @@ function selecionarAlianza(e){
                     break;
                     
                 case "Credibanco":
+                    // $('#commerceID').show();
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `${correosAdquirencia}`;
                     document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
