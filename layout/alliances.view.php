@@ -9,7 +9,9 @@
             <option value="normal">Kick-off Normal</option>
         </select>
         <div class="invalid-feedback">
-            Seleccione una alianza
+            <label style="color: white">Seleccione una alianza</label>
+            <label>*</label>
+            
         </div>
     </div>
 
@@ -22,20 +24,21 @@
              <option value="Credibanco">Credibanco</option>
          </select>
          <div class="invalid-feedback">
-             Seleccione una Red
+            <label style="color: white">Seleccione una Red</label>
+            <label>*</label>
          </div>
      </div>
 
     <!-- Selector Franquicia -->
     <div class="col-md-7">
-        <div id="franquiciasCredito"  class=" row">
+        <div id="franquiciasCredito" class=" row">
             <div class="form-check form-switch col-md-2">
                 <input class="form-check-input valores"  type="checkbox" id="visa" name="franquicias" value="Visa">
                 <label class="form-check-label" for="Visa">Visa</label>
             </div>
-            <div class="form-check form-switch col-md-2">
+            <div class="form-check form-switch col-md-3">
                 <input class="form-check-input valores" type="checkbox" id="masterCard" name="franquicias" value="MasterCard">
-                <label class="form-check-label" for="MasterCard">MasterCard </label>
+                <label class="form-check-label" for="MasterCard">MasterCard</label>
             </div>
             <div class="form-check form-switch col-md-2">
                 <input class="form-check-input  valores" type="checkbox" id="dinners" name="franquicias" value="Dinners">
@@ -50,7 +53,8 @@
                 <label class="form-check-label" for="Credencial">Credencial</label>
             </div>
             <div>
-                <code id="error-message">***Seleccionar solo en Redeban y Credibanco***</code>
+                <code style="color:white" id="error-message">Seleccionar solo en Credibanco o Redeban</code>
+                <label style="color:red">*</label>
             </div>
         </div>
     </div>

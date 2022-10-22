@@ -91,7 +91,7 @@ function selecionarAlianza(e){
         checkedArray.push('Credencial ');
     }
     else{
-        errorMsg.innerText = '***Seleccionar solo en Redeban y Credibanco***'; 
+        errorMsg.innerText = 'Seleccionar solo en Credibanco o Redeban'; 
     } 
 
     
@@ -301,16 +301,16 @@ function selecionarAlianza(e){
                     break;
             
                 default:
-                    document.getElementById('respuestaRed').innerHTML = `***Debes de seleccionar una red de procesamiento***`;
+                    document.getElementById('respuestaRed').innerHTML = `Selecciona una red de procesamiento*`;
                     break;
             }
           break;
 
         default:
-            document.getElementById('respuestaRed').innerHTML = `***Debes de seleccionar una red de procesamiento`;
-            document.getElementById('correosNotificacion').innerHTML = `***Debes de seleccionar una alianza`;
-            document.getElementById('correosNotificacionCopia').innerHTML = `***Debes de seleccionar una alianza`;
-            document.getElementById('respuestaAsunto').innerHTML = `***Debes de seleccionar una alianza`;
+            document.getElementById('respuestaRed').innerHTML = `Selecciona una red de procesamiento*`;
+            document.getElementById('correosNotificacion').innerHTML = `Selecciona una alianza o red de procesamiento*`;
+            document.getElementById('correosNotificacionCopia').innerHTML = `Selecciona una alianza o red de procesamiento*`;
+            document.getElementById('respuestaAsunto').innerHTML = `Selecciona una alianza o red de procesamiento*`;
           break;
       }
 };

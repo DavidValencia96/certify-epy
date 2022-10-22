@@ -6,25 +6,28 @@
                 <span class="input-group-text">ID</span>
                 <input name="idComercio" id="idComercio" class="form-control" type="number" value="0"/>
                 <div class="invalid-feedback">
-                    Por favor digite el ID comercio.
+                    <label style="color: white">Ingrese el ID comercio</label>
+                    <label>*</label>
                 </div>
             </div>
         </div>
         <div class="col-md-5 mb-1">
             <div class="input-group">
                 <span class="input-group-text" for="nombre">Nombre comercio</span>
-                <input name="nombre" id="nombre" class="form-control" type="text" value="" required/>
+                <input name="nombre" id="nombre" class="form-control" type="text" value="" placeholder="Edificio xXx" required/>
                 <div class="invalid-feedback">
-                    Por favor digite el nombre del comercio.
+                    <label style="color: white">Ingrese el nombre del comercio</label>
+                    <label>*</label>
                 </div>
             </div>
         </div>
         <div class="col-md-5 mb-1">
             <div class="input-group">
                 <span class="input-group-text" for="correo">E-mail</span>
-                <input name="correo" id="correo" class="form-control" type="email" value="" required/>
+                <input name="correo" id="correo" class="form-control" type="email" value="" placeholder="empresa@xxx.com" required/>
                 <div class="invalid-feedback">
-                    Por favor digite el email del comercio.
+                    <label style="color: white">Ingrese un email valido</label>
+                    <label>*</label>
                 </div>
             </div>
         </div>                            
