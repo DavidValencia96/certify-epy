@@ -16,18 +16,17 @@
     <title>Support ePayco</title>
 </head>
 
-<body >
+<body class="fondo1" >
     <!-- Loader -->
-    <div class="loader-page">ePayco ST</div>
+    <div class="loader-page text-white">ePayco ST</div>
 
     <div>
         <!-- modales  -->
         <?php include './layout/modal.view.php'; ?>
         
-        <div class="container-fluid mt-1 ">
-            <div class="row">
+        <div class="container-fluid">
 
-            <!-- Dark Mode in progress -->
+                <!-- Dark Mode in progress -->
 
                 <!-- <label>
                     <input type="checkbox">
@@ -36,9 +35,9 @@
                 
 
                 <!-- <div class="col-8 offset-2"> -->
-                <div class="col-12 ">
+                <div class="col-12">
                 
-                    <form id="formulario" class="row g-3 p-3 mt-1 shadow border needs-validation card border-dark" novalidate >
+                    <form id="formulario" class="row g-3 p-3 mt-1 shadow border needs-validation card border-secondary text-white" novalidate >
 
                         <!-- titulo -->
                         <?php include './layout/title.view.php'; ?>
@@ -60,7 +59,6 @@
                         <?php include './layout/response.view.php'; ?>    
                     </form>
                 </div>
-            </div>
 
             <!-- Footer -->
             <?php include './layout/footer.view.php'; ?>    
@@ -69,7 +67,6 @@
     
 </body>
 <script src="./js/data.js"></script>
-<script src="./js/darkMode.js"></script>
 <script src="./js/function.js"></script>
 <script src="./js/loader.js"></script>
 <script src="http://code.jquery.com/jquery.js"></script>

@@ -2,12 +2,12 @@
 
 <!-- Red y asunto  -->
 <div class="row mt-0">
-    <label hidden><b>Red de procesamiento:</b>  <code id="respuestaRed"></code></label>
+    <label hidden><b>Red de procesamiento:</b><code style="color: #FF6720;" id="respuestaRed"></code></label>
     <label class="mt-1"><b>Correos a notificar: </b></label>
-        <code id="correosNotificacion"></code>
-    <label class="mt-1"><b>Correos copia:</b></label>
-        <code disabled id="correosNotificacionCopia"></code>
-    <label class="mt-1"><b>Asunto Correo: </b><code id="respuestaAsunto"></code></label>
+        <code style="color: #FF6720;" id="correosNotificacion"></code>
+    <label class="mt-1"><b>Correos copia: </b></label>
+        <code style="color: #FF6720;" id="correosNotificacionCopia"></code>
+    <label class="mt-1"><b>Asunto correo: </b><code style="color: #FF6720;" id="respuestaAsunto"></code></label>
 </div>
 <hr>
 
@@ -23,7 +23,7 @@
 
     <!-- Comentario CRM -->
     <div class="col-md-4">
-        <label for="dataCommerce"><b>Comentario CRM:</b> <code id="typeKickoff"></code></label>
+        <label for="dataCommerce"><b>Comentario CRM: </b> <code style="color: #FF6720;" id="typeKickoff"></code></label>
         <textarea style="height: 100px" id="respuestaCRM" class="form-control"></textarea>
         <div class="row mt-1">
             <div class="col-md-3">
@@ -40,7 +40,7 @@
 
     <!-- Comentario respuesta certificaciones -->
     <div class="col-md-4">
-        <label for="dataCommerce"><b>Responder correo a certificaciones:</b></label>
+        <label for="dataCommerce"><b>Respuesta e-mail certificaciones</b></label>
         <textarea  style="height: 100px" id="respuestaCertificaciones" class="form-control"></textarea>
         <div class="row mt-1">
             <div class="col-md-3">
@@ -57,7 +57,7 @@
     
     <!-- correo kick off -->
     <div class="col-md-4">
-        <label for="dataCommerce"><b>Correo Kick-off:</b></label>
+        <label for="dataCommerce"><b>Correo Kick-Off</b></label>
         <textarea style="height: 100px" id="respuesta" class="form-control"></textarea>
 
         <div class="row mt-1">
@@ -79,7 +79,7 @@
 <div>
     <p>Descargar archivo de "Acta de salida a producción ePayco"
         <a href="./doc/acta-salida-a-produccion.docx" download="acta-epayco">
-            <img src="./img/file.png" alt="file" width="50" height="50">
+            <img src="./img/file.png" alt="file" width="40" height="40">
         </a>
     </p>
     <article class="mb-3 mt-2">
@@ -91,6 +91,4 @@
         </code>
     </article>
 </div>
-<br>
-<br>
 </div>

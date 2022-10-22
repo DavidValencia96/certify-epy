@@ -1,6 +1,6 @@
 <div class="d-grid gap-2 d-md-block mt-2">
 
-    <button disabled class="btn btn-success btn-sm" type="submit" id="boton">Generar copys</button>
+    <button disabled class="btn btn-success btn-sm" type="submit" id="boton">Generar</button>
 
     <button class="btn btn-danger btn-sm" type="reset">Limpiar</button>
 
@@ -9,7 +9,7 @@
     <button type="button" class="btn btn-warning btn-sm position-relative" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Códigos alianzas 
         <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-            New
+            New!
         </span>
     </button>
     
