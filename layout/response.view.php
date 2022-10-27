@@ -23,7 +23,7 @@
 
     <!-- Comentario CRM -->
     <div class="col-md-4">
-        <label for="dataCommerce"><b>Comentario CRM: </b> <code style="color: #FF6720;" id="typeKickoff"></code></label>
+        <label for="dataCommerce"><b> </b> <code style="color: #FF6720;" id="typeKickoff"></code></label>
         <textarea style="height: 100px; background-color:#BAB9B9; color:#1d1d1d;" id="respuestaCRM" class="form-control"></textarea>
         <div class="row mt-1">
             <div class="col-md-3">
