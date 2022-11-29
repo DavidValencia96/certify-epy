@@ -122,7 +122,7 @@ function selecionarAlianza(e){
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `${correosJelpit}`;
                     document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
-                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Tarjeta de Credito Redeban`;
+                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Tarjeta de Credito Redeban || Salida a producción Tarjeta de Credito Redeban Migración`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
 
 
@@ -138,9 +138,8 @@ function selecionarAlianza(e){
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `${correosJelpit}`;
                     document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
-                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Tarjeta de Credito Credibanco`;
+                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Tarjeta de Credito Credibanco || Salida a producción Tarjeta de Credito Credibanco Migración`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
-
 
                     document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en  Tarjeta de Credito por medio de ${optionRed} con las respectivas transacciones de prueba de las cuales no se tiene registro alguno debido a que no se tiene algún acceso a ${optionRed} para validar y dejar evidencia de estas. `;
 
