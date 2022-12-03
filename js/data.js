@@ -108,7 +108,7 @@ function selecionarAlianza(e){
                     document.getElementById('correosNotificacion').innerHTML = `${correosJelpit}`;
                     document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
                     document.getElementById('respuestaAsunto').innerHTML = `Salida a producción PSE || Salida a producción PSE/Migración Jelpit`;
-                    document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;xx  
+                    document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
                     
                     document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en PSE con la respectiva prueba de pago en conexión con ACH y redirigiendo a la entidad bancaria.`;
 
