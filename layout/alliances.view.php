@@ -22,6 +22,7 @@
              <option value="PSE">PSE</option>
              <option value="Redeban">Redeban</option>
              <option value="Credibanco">Credibanco</option>
+             <option value="Daviplata">Daviplata</option>
          </select>
          <div class="invalid-feedback">
             <label style="color: white">Seleccione una Red</label>
