@@ -44,19 +44,83 @@
 
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="certificaciones" aria-selected="true">Certificaciones</button>
+                                <button class="nav-link active" id="certificaciones-tab" data-bs-toggle="tab" data-bs-target="#certificaciones" type="button" role="tab" aria-controls="certificaciones" aria-selected="true">Certificaciones</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="escalamientos" aria-selected="false">Escalamientos</button>
+                                <button class="nav-link" id="escalamientos-tab" data-bs-toggle="tab" data-bs-target="#escalamientos" type="button" role="tab" aria-controls="escalamientos" aria-selected="false">Escalamientos</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="Rtickets" aria-selected="false">R. Tickets</button>
+                                <button class="nav-link" id="rTickets-tab" data-bs-toggle="tab" data-bs-target="#rTickets" type="button" role="tab" aria-controls="rTickets" aria-selected="false">R/Tickets</button>
                             </li>
                         </ul>
                         <div class="tab-content" id="myTabContent">
-                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+
+                            <div class="tab-pane fade show active" id="certificaciones" role="tabpanel" aria-labelledby="certificaciones-tab">
+
+                                <!-- Selectores alianza, red y franquicia -->
+                                <?php include './layout/alliances.view.php'; ?>
+
+                                <!-- Imputs ingresar datos -->
+                                <?php include './layout/inputsData.view.php'; ?>        
+
+
+                                <!-- Botones imprimir - modal -->
+                                <?php include './layout/buttonsPrints.view.php'; ?>    
+
+                                <hr>
+
+                                <!-- Data impresa -->
+                                <?php include './layout/response.view.php'; ?>    
+
+                            </div>
+                            
+                            <div class="tab-pane fade" id="escalamientos" role="tabpanel" aria-labelledby="escalamientos-tab">
+                                
+                                <div class="card" aria-hidden="true">
+                                    <!-- <img src="" class="card-img-top" alt="logepy"> -->
+                                    <div class="card-body bg-dark">
+                                        <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6 bg-dark"> Cargando información, por favor espere . . .</span>
+                                        </h5>
+                                        <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7 bg-success"></span>
+                                        <span class="placeholder col-4 bg-success"></span>
+                                        <span class="placeholder col-4 bg-success"></span>
+                                        <span class="placeholder col-6 bg-success"></span>
+                                        <span class="placeholder col-8 bg-success"></span>
+                                        </p>
+                                        <button class="btn btn-primary" type="button" disabled>
+                                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                            Loading...
+                                        </button>
+                                    </div>
+                                </div>
+                            
+                                
+                            </div>
+
+                            <div class="tab-pane fade" id="rTickets" role="tabpanel" aria-labelledby="rTickets-tab">
+
+                                <div class="card" aria-hidden="true">
+                                    <!-- <img src="" class="card-img-top" alt="logepy"> -->
+                                    <div class="card-body bg-dark">
+                                        <h5 class="card-title placeholder-glow">
+                                        <span class="placeholder col-6 bg-dark"> Cargando información, por favor espere . . .</span>
+                                        </h5>
+                                        <p class="card-text placeholder-glow">
+                                        <span class="placeholder col-7 bg-warning"></span>
+                                        <span class="placeholder col-4 bg-warning"></span>
+                                        <span class="placeholder col-4 bg-warning"></span>
+                                        <span class="placeholder col-6 bg-warning"></span>
+                                        <span class="placeholder col-8 bg-warning"></span>
+                                        </p>
+                                        <button class="btn btn-success" type="button" disabled>
+                                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                                            Loading...
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
 
@@ -65,7 +129,7 @@
 
                         
 
-                          
+                        
                     </form>
                 </div>
 
