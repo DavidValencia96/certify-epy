@@ -38,25 +38,34 @@
                 <div class="col-12">
                 
                     <form id="formulario" class="row g-3 p-3 mt-1 shadow border needs-validation card border-secondary text-white" novalidate >
-
                         <!-- titulo -->
                         <?php include './layout/title.view.php'; ?>
-                        <hr>
+                        <!-- <hr> -->
 
-                        <!-- Selectores alianza, red y franquicia -->
-                        <?php include './layout/alliances.view.php'; ?>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Certificaciones</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                        </div>
 
-                        <!-- Imputs ingresar datos -->
-                        <?php include './layout/inputsData.view.php'; ?>        
+
+
+
+
                         
-                        
-                        <!-- Botones imprimir - modal -->
-                        <?php include './layout/buttonsPrints.view.php'; ?>    
-                    
-                        <hr>
 
-                        <!-- Data impresa -->
-                        <?php include './layout/response.view.php'; ?>    
+                          
                     </form>
                 </div>
 

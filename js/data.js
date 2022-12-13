@@ -224,7 +224,7 @@ function selecionarAlianza(e){
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `${correosAdquirencia}`;
                     document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
-                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Daviplata | Adquirencia Móvil | ID ${idComercio} - ${nombre} `;
+                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Daviplata | Adquirencia Móvil | ID ${idComercio} - ${nombre}`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
 
                     document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en Daviplata con la respectiva prueba de pago.`;
