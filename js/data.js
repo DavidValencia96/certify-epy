@@ -298,7 +298,7 @@ function selecionarAlianza(e){
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `---> Correo que se encuentra en CRM como contacto <---`;
                     document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia} + KAM Davivienda ubicado en el CRM`;
-                    zocument.getElementById('respuestaAsunto').innerHTML = `Kick-off validación medio de pago Daviplata | Alianza Davivienda`;
+                    document.getElementById('respuestaAsunto').innerHTML = `Kick-off validación medio de pago Daviplata | Alianza Davivienda`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
                     
                     document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en Daviplata con la respectiva prueba de pago.`;
