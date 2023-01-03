@@ -250,7 +250,7 @@ function selecionarAlianza(e){
                 case "PSE":
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `---> Correo que se encuentra en CRM como contacto <---`;
-                    document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia} + KAM Davivienda ubicado en el CRM`;
+                    document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia} + correo KAM Davivienda ubicado en el CRM`;
                     document.getElementById('respuestaAsunto').innerHTML = `Kick-off validación medio de pago PSE | Alianza Davivienda`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
 
@@ -266,7 +266,7 @@ function selecionarAlianza(e){
                 case "Redeban":
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `---> Correo que se encuentra en CRM como contacto <---`;
-                    document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia} + KAM Davivienda ubicado en el CRM`;
+                    document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia} + correo KAM Davivienda ubicado en el CRM`;
                     document.getElementById('respuestaAsunto').innerHTML = `Kick-off validación medios de pago Redeban | Alianza Davivienda`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
                     
@@ -282,7 +282,7 @@ function selecionarAlianza(e){
                 case "Credibanco":
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `---> Correo que se encuentra en CRM como contacto <---`;
-                    document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia} + KAM Davivienda ubicado en el CRM`;
+                    document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia} + correo KAM Davivienda ubicado en el CRM`;
                     document.getElementById('respuestaAsunto').innerHTML = `Kick-off validación medios de pago Credibanco | Alianza Davivienda`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
                     
@@ -297,7 +297,7 @@ function selecionarAlianza(e){
                 case "Daviplata":
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `---> Correo que se encuentra en CRM como contacto <---`;
-                    document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia} + KAM Davivienda ubicado en el CRM`;
+                    document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia} + correo KAM Davivienda ubicado en el CRM`;
                     document.getElementById('respuestaAsunto').innerHTML = `Kick-off validación medio de pago Daviplata | Alianza Davivienda`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
                     

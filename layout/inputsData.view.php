@@ -4,7 +4,7 @@
         <div class="col-md-2 mb-1" id="commerceID">
             <div class="input-group" >
                 <span class="input-group-text">ID</span>
-                <input name="idComercio" id="idComercio" class="form-control" type="number" value="0"/>
+                <input name="idComercio" id="idComercio" class="form-control" type="number" value="0" disabled/>
                 <div class="invalid-feedback">
                     <label style="color: white">Ingrese el ID comercio</label>
                     <label>*</label>
