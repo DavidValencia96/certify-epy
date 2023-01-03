@@ -97,7 +97,7 @@ function selecionarAlianza(e){
     
     var correosJelpit = 'mlsalgado@davivienda.com; viancaro@proveedores.davivienda.com; pjcastib@proveedores.davivienda.com; liliana.rubio@serviciosbolivar.com; fabian.poveda@serviciosbolivar.com; mildred.cortes@serviciosbolivar.com; luis.ordonez.castro@serviciosbolivar.com; erika.cruz@serviciosbolivar.com;';
     var correosAdquirencia = 'fmontealegre@davivienda.com; ';
-    var correosCopia = 'soporte.integraciones@epayco.com; certificaciones.comercial@payco.co; manuel.granada@epayco.com' ;
+    var correosCopia = 'soporte.integraciones@epayco.com; certificaciones.comercial@payco.co; ' ;
     var correosKickOff = 'soporte.integraciones@epayco.com; certificaciones.comercial@payco.co; ';
     
     switch (optionAlianza) {
@@ -107,7 +107,7 @@ function selecionarAlianza(e){
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `${correosJelpit}`;
                     document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
-                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción PSE || Salida a producción PSE/Migración Jelpit`;
+                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción PSE || Salida a producción PSE / Migración Jelpit`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
                     
                     document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en PSE con la respectiva prueba de pago en conexión con ACH y redirigiendo a la entidad bancaria.`;
@@ -122,11 +122,11 @@ function selecionarAlianza(e){
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `${correosJelpit}`;
                     document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
-                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Tarjeta de Credito Redeban || Salida a producción Tarjeta de Credito Redeban Migración`;
+                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Tarjeta de Crédito Redeban || Salida a producción Tarjeta de Crédito Redeban / Migración Jelpit`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
 
 
-                    document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en  Tarjeta de Credito por medio de ${optionRed} con las respectivas transacciones de prueba de las cuales no se tiene registro alguno debido a que no se tiene algún acceso a ${optionRed} para validar y dejar evidencia de estas. `;
+                    document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en  Tarjeta de Crédito por medio de ${optionRed} con las respectivas transacciones de prueba de las cuales no se tiene registro alguno debido a que no se tiene algún acceso a ${optionRed} para validar y dejar evidencia de estas. `;
 
                     document.getElementById('respuestaCertificaciones').innerHTML = `Buen Día. \n\nReciba un cordial saludo. \n\nTe confirmo la certificación del comercio ${nombre} en el medio de pago Tarjeta de Crédito por medio de ${optionRed}, quien ya se encuentra notificado y el paquete de transacciones de este comercio es el activo y relacionado con la Alianza Jelpit.`;
                     
@@ -138,10 +138,10 @@ function selecionarAlianza(e){
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `${correosJelpit}`;
                     document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
-                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Tarjeta de Credito Credibanco || Salida a producción Tarjeta de Credito Credibanco Migración`;
+                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Tarjeta de Crédito Credibanco || Salida a producción Tarjeta de Crédito Credibanco / Migración`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
 
-                    document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en  Tarjeta de Credito por medio de ${optionRed} con las respectivas transacciones de prueba de las cuales no se tiene registro alguno debido a que no se tiene algún acceso a ${optionRed} para validar y dejar evidencia de estas. `;
+                    document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en  Tarjeta de Crédito por medio de ${optionRed} con las respectivas transacciones de prueba de las cuales no se tiene registro alguno debido a que no se tiene algún acceso a ${optionRed} para validar y dejar evidencia de estas. `;
 
                     document.getElementById('respuestaCertificaciones').innerHTML = `Buen Día. \n\nReciba un cordial saludo. \n\nTe confirmo la certificación del comercio ${nombre} en el medio de pago Tarjeta de Crédito por medio de ${optionRed}, quien ya se encuentra notificado y el paquete de transacciones de este comercio es el activo y relacionado con la Alianza Jelpit.`;
                     
@@ -153,7 +153,7 @@ function selecionarAlianza(e){
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `${correosJelpit}`;
                     document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
-                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Daviplata || Salida a producción Daviplata/Migración Jelpit`;
+                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Daviplata || Salida a producción Daviplata / Migración Jelpit`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
                     
                     document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en Daviplata con la respectiva prueba de pago.`;
@@ -177,7 +177,8 @@ function selecionarAlianza(e){
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `${correosAdquirencia}`;
                     document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
-                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción PSE | Adquirencia Móvil | ID ${idComercio} - ${nombre} `;
+                    // document.getElementById('respuestaAsunto').innerHTML = `Salida a producción PSE | Adquirencia Móvil | ID ${idComercio} - ${nombre} `;
+                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción PSE | Adquirencia Móvil`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
 
                     document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en PSE con la respectiva prueba de pago en conexión con ACH y redirigiendo a la entidad bancaria.`;
@@ -193,7 +194,8 @@ function selecionarAlianza(e){
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `${correosAdquirencia}`;
                     document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
-                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Tarjeta de Credito | Adquirencia Móvil | ID ${idComercio} - ${nombre} `;
+                    // document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Tarjeta de Crédito Redeban | Adquirencia Móvil | ID ${idComercio} - ${nombre} `;
+                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Tarjeta de Crédito   Redeban | Adquirencia Móvil`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
 
                     document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en TC por medio de ${optionRed} con las respectivas transacciones de prueba de las cuales no se tiene registro alguno debido a que no se tiene algún acceso a ${optionRed} para validar y dejar evidencia de estas.`;
@@ -209,7 +211,8 @@ function selecionarAlianza(e){
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `${correosAdquirencia}`;
                     document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
-                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción PSE | Adquirencia Móvil | ID ${idComercio} - ${nombre} `;
+                    // document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Credibanco | Adquirencia Móvil | ID ${idComercio} - ${nombre} `;
+                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Tarjeta de Crédito - Credibanco | Adquirencia Móvil`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
 
                     document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en TC por medio de ${optionRed} con las respectivas transacciones de prueba de las cuales no se tiene registro alguno debido a que no se tiene algún acceso a ${optionRed} para validar y dejar evidencia de estas.`;
@@ -224,7 +227,8 @@ function selecionarAlianza(e){
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
                     document.getElementById('correosNotificacion').innerHTML = `${correosAdquirencia}`;
                     document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
-                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Daviplata | Adquirencia Móvil | ID ${idComercio} - ${nombre}`;
+                    // document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Daviplata | Adquirencia Móvil | ID ${idComercio} - ${nombre}`;
+                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción Daviplata | Adquirencia Móvil`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
 
                     document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en Daviplata con la respectiva prueba de pago.`;
@@ -245,35 +249,64 @@ function selecionarAlianza(e){
             switch (optionRed) {
                 case "PSE":
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
-                    document.getElementById('correosNotificacion').innerHTML = `${correosAdquirencia}`;
-                    document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
-                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción PSE | Adquirencia Móvil | ID ${idComercio} - ${nombre} `;
+                    document.getElementById('correosNotificacion').innerHTML = `---> Correo que se encuentra en CRM como contacto <---`;
+                    document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia} + KAM Davivienda ubicado en el CRM`;
+                    document.getElementById('respuestaAsunto').innerHTML = `Kick-off validación medio de pago PSE | Alianza Davivienda`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
 
                     
-                    document.getElementById('respuesta').innerHTML = `En proceso de construcción (...)`;
+                    document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en PSE con la respectiva prueba de pago en conexión con ACH y redirigiendo a la entidad bancaria.`;
+
+                    document.getElementById('respuestaCertificaciones').innerHTML = `Buen día. \n\nReciba un cordial saludo. \n\nTe notifico la certificación del comercio ${nombre} en el medio de pago ${optionRed} quien ya se encuentra notificado y con el paquete de TX activo. \n\nQuedo atento a cualquier novedad.`;
+                    
+                    document.getElementById('respuesta').innerHTML = `Buen día. \n\nReciba un cordial saludo.\n\nDe parte del equipo ePayco es un gusto informarles de que su proceso de certificación en nuestro modelo Gateway en la certificación PSE para el comercio ${nombre} ha culminado exitosamente con la respectiva prueba de pago en la conexión con ${optionRed}, solicitamos amablemente realizar una reunión entre su desarrollador y nuestro equipo de soporte para revisar la integración de nuestra pasarela en su comercio y así garantizar su correcto funcionamiento, por favor agendar reunión (teniendo en cuenta que el horario es en hora militar) en el siguiente enlace "https://calendly.com/epayco/reunion" y confirmarnos la fecha por este medio. \n\nSe recomienda al momento de la reunión poder disponer de tarjetas reales para realizar pruebas en la integración implementada para la validación de la certificación en lo posible con cada una de las franquicias certificadas, esto con el fin de dar cumplimiento al acta de salida a producción durante el Kick-Off la cual se envía adjunta para su previa revisión y una vez diligenciada se debe de entregar firmada de manera digital en el tiempo de la reunión. \n\nNota: El correo para ingresar al dashboard es el siguiente: ${correo} para validar la contraseña, por favor ingresar a la siguiente página https://dashboard.epayco.co/login luego seleccionar la opción de olvido su contraseña para restablecer su contraseña.`;
                     
                     break;
 
                 case "Redeban":
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
-                    document.getElementById('correosNotificacion').innerHTML = `${correosAdquirencia}`;
-                    document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
-                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción PSE | Adquirencia Móvil | ID ${idComercio} - ${nombre} `;
+                    document.getElementById('correosNotificacion').innerHTML = `---> Correo que se encuentra en CRM como contacto <---`;
+                    document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia} + KAM Davivienda ubicado en el CRM`;
+                    document.getElementById('respuestaAsunto').innerHTML = `Kick-off validación medios de pago Redeban | Alianza Davivienda`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
                     
-                    document.getElementById('respuesta').innerHTML = `En proceso de construcción (...)`;
+                    document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en TC por medio de ${optionRed} con las respectivas transacciones de prueba de las cuales no se tiene registro alguno debido a que no se tiene algún acceso a ${optionRed} para validar y dejar evidencia de estas.`;
+
+                    document.getElementById('respuestaCertificaciones').innerHTML = `Buen día. \n\nReciba un cordial saludo. \n\nTe notifico la certificación del comercio ${nombre} en el medio de pago tarjeta crédito por medio de ${optionRed} quien ya se encuentra notificado y con el paquete de TX activo. \n\nQuedo atento a cualquier novedad.`;
+                    
+                    
+                    document.getElementById('respuesta').innerHTML = `Buen día. \n\nReciba un cordial saludo. \n\nDe parte del equipo ePayco es un gusto informarles de que su proceso de certificación en nuestro modelo Gateway en la certificación TC para el comercio ${nombre} ha culminado exitosamente con las respectivas pruebas de pago en la conexión con ${optionRed} en las franquicias solicitadas (${checkedArray}), amablemente solicitamos realizar una reunión entre su desarrollador y nuestro equipo de soporte para revisar la integración de nuestra pasarela en su comercio y así garantizar su correcto funcionamiento, por favor agendar reunión en el siguiente enlace "https://calendly.com/epayco/reunion" y confirmarnos la fecha por este medio. \n\nSe recomienda al momento de la reunión poder disponer de tarjetas reales para realizar pruebas en la integración implementada para la validación de la certificación en lo posible con cada una de las franquicias certificadas, esto con el fin de dar cumplimiento al acta de salida a producción durante el kick-off la cual se envía adjunta para su previa revisión y una vez diligenciada se debe de entregar firmada de manera digital en el tiempo de la reunión. \n\nTener en cuenta que las franquicias antes mencionadas en la activación de esta certificación no quiere decir que serán las únicas disponibles para su comercio, ya que estas son las que se encuentran habilitadas y activas al momento de ${optionRed} notificar la disponibilidad para certificar, pero paulatinamente se pueden activar las demás en caso de haber sido solicitadas una vez la entidad bancaria correspondiente las notifique. \n\nNota: El correo para ingresar al dashboard es el siguiente: ${correo} para validar la contraseña, por favor ingresar a la siguiente página https://dashboard.epayco.co/login luego seleccionar la opción de olvido su contraseña para restablecer su contraseña.`;
                     
                     break;
                     
                 case "Credibanco":
                     document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
-                    document.getElementById('correosNotificacion').innerHTML = `${correosAdquirencia}`;
-                    document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia}`;
-                    document.getElementById('respuestaAsunto').innerHTML = `Salida a producción PSE | Adquirencia Móvil | ID ${idComercio} - ${nombre} `;
+                    document.getElementById('correosNotificacion').innerHTML = `---> Correo que se encuentra en CRM como contacto <---`;
+                    document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia} + KAM Davivienda ubicado en el CRM`;
+                    document.getElementById('respuestaAsunto').innerHTML = `Kick-off validación medios de pago Credibanco | Alianza Davivienda`;
                     document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
                     
-                    document.getElementById('respuesta').innerHTML = `En proceso de construcción (...)`;
+                    document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en TC por medio de ${optionRed} con las respectivas transacciones de prueba de las cuales no se tiene registro alguno debido a que no se tiene algún acceso a ${optionRed} para validar y dejar evidencia de estas.`;
+
+                    document.getElementById('respuestaCertificaciones').innerHTML = `Buen día. \n\nReciba un cordial saludo. \n\nTe notifico la certificación del comercio ${nombre} en el medio de pago tarjeta crédito por medio de ${optionRed} quien ya se encuentra notificado y con el paquete de TX activo. \n\nQuedo atento a cualquier novedad.`;
+                    
+                    document.getElementById('respuesta').innerHTML = `Buen día. \n\nReciba un cordial saludo.\n\nDe parte del equipo ePayco es un gusto informarles de que su proceso de certificación en nuestro modelo Gateway en la certificación TC para el comercio ${nombre} ha culminado exitosamente con las respectivas pruebas de pago en la conexión con ${optionRed} en las franquicias solicitadas (${checkedArray}), amablemente solicitamos realizar una reunión entre su desarrollador y nuestro equipo de soporte para revisar la integración de nuestra pasarela en su comercio y así garantizar su correcto funcionamiento, por favor agendar reunión en el siguiente enlace "https://calendly.com/epayco/reunion" y confirmarnos la fecha por este medio. \n\nSe recomienda al momento de la reunión poder disponer de tarjetas reales para realizar pruebas en la integración implementada para la validación de la certificación en lo posible con cada una de las franquicias certificadas, esto con el fin de dar cumplimiento al acta de salida a producción durante el kick-off la cual se envía adjunta para su previa revisión y una vez diligenciada se debe de entregar firmada de manera digital en el tiempo de la reunión. \n\nTener en cuenta que las franquicias antes mencionadas en la activación de esta certificación no quiere decir que serán las únicas disponibles para su comercio, ya que estas son las que se encuentran habilitadas y activas al momento de ${optionRed} notificar la disponibilidad para certificar, pero paulatinamente se pueden activar las demás en caso de haber sido solicitadas una vez la entidad bancaria correspondiente las notifique. \n\nNota: El correo para ingresar al dashboard es el siguiente: ${correo} para validar la contraseña, por favor ingresar a la siguiente página https://dashboard.epayco.co/login luego seleccionar la opción de olvido su contraseña para restablecer su contraseña.`;
+
+                    break;
+
+                case "Daviplata":
+                    document.getElementById('respuestaRed').innerHTML = `${optionRed}`;
+                    document.getElementById('correosNotificacion').innerHTML = `---> Correo que se encuentra en CRM como contacto <---`;
+                    document.getElementById('correosNotificacionCopia').innerHTML = `${correosCopia} + KAM Davivienda ubicado en el CRM`;
+                    zocument.getElementById('respuestaAsunto').innerHTML = `Kick-off validación medio de pago Daviplata | Alianza Davivienda`;
+                    document.getElementById('typeKickoff').innerHTML = `Certificación ${optionRed}`;
+                    
+                    document.getElementById('respuestaCRM').innerHTML = `Buen día. \n\nSe realiza la certificación en Daviplata con la respectiva prueba de pago.`;
+
+                    document.getElementById('respuestaCertificaciones').innerHTML = `Buen día. \n\nReciba un cordial saludo. \n\nTe notifico la certificación del comercio ${nombre} en el medio de pago ${optionRed} quien ya se encuentra notificado y con el paquete de TX activo. \n\nQuedo atento a cualquier novedad.`;
+                    
+                    document.getElementById('respuesta').innerHTML = `Buen día. \n\nReciba un cordial saludo.\n\nDe parte del equipo ePayco es un gusto informarles de que su proceso de certificación en nuestro modelo Gateway en la certificación Daviplata para el comercio ${nombre} ha culminado exitosamente con la respectiva prueba de pago, solicitamos amablemente realizar una reunión entre su desarrollador y nuestro equipo de soporte para revisar la integración de nuestra pasarela en su comercio y así garantizar su correcto funcionamiento, por favor agendar reunión (teniendo en cuenta que el horario es en hora militar) en el siguiente enlace "https://calendly.com/epayco/reunion" y confirmarnos la fecha por este medio. \n\nSe recomienda al momento de la reunión poder disponer de tarjetas reales para realizar pruebas en la integración implementada para la validación de la certificación en lo posible con cada una de las franquicias certificadas, esto con el fin de dar cumplimiento al acta de salida a producción durante el Kick-Off la cual se envía adjunta para su previa revisión y una vez diligenciada se debe de entregar firmada de manera digital en el tiempo de la reunión. \n\nNota: El correo para ingresar al dashboard es el siguiente: ${correo} para validar la contraseña, por favor ingresar a la siguiente página https://dashboard.epayco.co/login luego seleccionar la opción de olvido su contraseña para restablecer su contraseña.`;
+
                     break;
             
                 default:
@@ -328,6 +361,7 @@ function selecionarAlianza(e){
                     document.getElementById('respuestaCertificaciones').innerHTML = `Buen día. \n\nReciba un cordial saludo. \n\nTe notifico la certificación del comercio ${nombre} en el medio de pago tarjeta crédito por medio de ${optionRed} quien ya se encuentra notificado y con el paquete de TX activo. \n\nQuedo atento a cualquier novedad.`;
                     
                     document.getElementById('respuesta').innerHTML = `Buen día. \n\nReciba un cordial saludo.\n\nDe parte del equipo ePayco es un gusto informarles de que su proceso de certificación en nuestro modelo Gateway en la certificación TC para el comercio ${nombre} ha culminado exitosamente con las respectivas pruebas de pago en la conexión con ${optionRed} en las franquicias solicitadas (${checkedArray}), amablemente solicitamos realizar una reunión entre su desarrollador y nuestro equipo de soporte para revisar la integración de nuestra pasarela en su comercio y así garantizar su correcto funcionamiento, por favor agendar reunión en el siguiente enlace "https://calendly.com/epayco/reunion" y confirmarnos la fecha por este medio. \n\nSe recomienda al momento de la reunión poder disponer de tarjetas reales para realizar pruebas en la integración implementada para la validación de la certificación en lo posible con cada una de las franquicias certificadas, esto con el fin de dar cumplimiento al acta de salida a producción durante el kick-off la cual se envía adjunta para su previa revisión y una vez diligenciada se debe de entregar firmada de manera digital en el tiempo de la reunión. \n\nTener en cuenta que las franquicias antes mencionadas en la activación de esta certificación no quiere decir que serán las únicas disponibles para su comercio, ya que estas son las que se encuentran habilitadas y activas al momento de ${optionRed} notificar la disponibilidad para certificar, pero paulatinamente se pueden activar las demás en caso de haber sido solicitadas una vez la entidad bancaria correspondiente las notifique. \n\nEs importante que pueda realizar el agendamiento de la reunión en el menor tiempo posible, ya que hasta no hacer efectiva dicha reunión los medios de pago notificados en esta certificación se encuentran inactivos. `;
+
                     break;
 
                 case "Daviplata":
