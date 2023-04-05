@@ -122,11 +122,11 @@
     </div>
     
 </body>
-<script src="./js/data.js"></script>
-<script src="./js/function.js"></script>
-<!-- <script src="./js/check.js"></script> -->
-<script src="./js/payment.js"></script>
-<script src="./js/loader.js"></script>
+<script src="/js/data.js"></script>
+<script src="/js/function.js"></script>
+<!-- <script src="/js/check.js"></script> -->
+<script src="/js/payment.js"></script>
+<script src="/js/loader.js"></script>
 <script src="http://code.jquery.com/jquery.js"></script>
 </html>
 
