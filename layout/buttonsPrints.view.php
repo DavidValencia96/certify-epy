@@ -1,6 +1,6 @@
 <div class="d-grid gap-2 d-md-block mt-2">
 
-    <button disabled class="btn btn-success btn-sm" type="submit" id="button">Generar</button>
+    <button disabled class="btn btn-success btn-sm" type="submit" id="boton">Generar</button>
 
     <button class="btn btn-danger btn-sm" type="reset">Limpiar</button>
 
